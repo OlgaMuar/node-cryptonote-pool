@@ -17,34 +17,34 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z",
+        "poolAddress": "49YJni7DhUWinsCeAVkyYa3wiBzcy9S3M3zNcxyL2ZHmJVveVAyBdZCM8djArwv6iUSNqSukWzduz4XC1f4qzLFLLnAjiLg",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 100,
+                "difficulty": 10000,
                 "desc": "Low end hardware"
             },
             {
                 "port": 5555,
-                "difficulty": 2000,
+                "difficulty": 15000,
                 "desc": "Mid range hardware"
             },
             {
                 "port": 7777,
-                "difficulty": 10000,
+                "difficulty": 20000,
                 "desc": "High end hardware"
             },
             {
                 "port": 8888,
-                "difficulty": 10000,
+                "difficulty": 25000,
                 "desc": "Hidden port",
                 "hidden": true
             }
         ],
         "varDiff": {
-            "minDiff": 2,
+            "minDiff": 10000,
             "maxDiff": 100000,
             "targetTime": 100,
             "retargetTime": 30,
@@ -86,9 +86,9 @@
         "enabled": true,
         "interval": 30,
         "depth": 60,
-        "poolFee": 2,
-        "devDonation": 0.1,
-        "coreDevDonation": 0.1
+        "poolFee": 50,
+        "devDonation": 0,
+        "coreDevDonation": 0
     },
 
     "api": {
@@ -98,7 +98,7 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "1111"
     },
 
     "daemon": {
